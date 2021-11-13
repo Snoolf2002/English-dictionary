@@ -1,6 +1,7 @@
-with open('./sources/baseEssential1.txt') as readBase:
+with open('./sources/baseUnits.txt') as readBase:
   ls = readBase.read().split()
-# print(len(ls))
+# lengthEngWords = len(ls)
+
 # Inglizcha so'zlarni key o'zbchasini value sifatida dict ga joylassh
 dictEng = {}
 for i in range(0, len(ls), 2):

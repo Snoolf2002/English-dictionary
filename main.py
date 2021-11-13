@@ -9,7 +9,7 @@ while request!='1' and request!='2':
   request = input("Eng-Uzb(1), Uzb-Eng(2): ")
 
 if request=='1':
-  for i in range(30):
+  for i in range(2*len(lsEng)):
     keyWord = random.choice(lsEng)
     print(keyWord)
     answerUzb = input()
@@ -20,7 +20,7 @@ if request=='1':
       wrongAnswers+=1
     print(ans)
 else:
-  for i in range(30):
+  for i in range(2*len(lsUzb)):
     value = random.choice(lsUzb)
     print(value)
     answerEng = input()

@@ -15,9 +15,27 @@ moment ayni-vaqtda
 pleased yoqimli
 promise vada-bermoq
 reply qaytarmoq
-safe havfsiz
-trick hiyla,nayrang
+safe xavfsiz
+trick xiyla,nayrang
 well yaxshi
 
-
-
+adventure sarguzasht
+approach yaqinlashmoq
+carefully diqqat,e'tibor
+chemical kimyoviy-modda
+create yaratmoq
+evil yovuzlik,yomonlik
+experiment tajriba
+kill o'ldirmoq
+laboratory laboratoriya
+laugh kulmoq
+loud shovqinli,baland-ovoz
+nervous havotirlangan,nervniy
+noise shovqin,ovoz
+project loyiha
+scare qo'rqitmoq,cho'chitmoq
+secret sir
+shout baqirmoq,qichqirmoq
+smell hidlamoq
+terrible daxshatli
+worse yomonroq
