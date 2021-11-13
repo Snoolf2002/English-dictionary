@@ -1,7 +1,7 @@
-with open('baseEssential1.txt') as readBase:
+with open('./sources/baseEssential1.txt') as readBase:
   ls = readBase.read().split()
 # print(len(ls))
-# Inglizcha so'zlarni key o'zbchasini value qilish
+# Inglizcha so'zlarni key o'zbchasini value sifatida dict ga joylassh
 dictEng = {}
 for i in range(0, len(ls), 2):
   dictEng[ls[i]] = list(ls[i+1].split(','))
@@ -12,7 +12,7 @@ for i in dictEng.values():
   for j in i:
     uzbWords.append(j)
 
-# Uzbekcha so'zlarni key inglizchasini value qilish
+# Uzbekcha so'zlarni key inglizchasini value sifatida dict ga joylash
 dictUzb = {}
 for i in uzbWords:
   for j in dictEng.keys():
