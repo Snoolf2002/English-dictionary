@@ -11,14 +11,12 @@ def chekAnswerUzb(answer, keyWord):
     return "Wrong answer!"
 
 
-
-
 # lsUzb ga o'zbekcha so'zlarni list sifatida qabul qilyapmiz
-lsUzb = list(dictUzb)
+lsUzb = list(dictUzb.keys())
 
 # O'zbekcha so'z beriladi tarjimasi tekshiriladi
 def chekAnswerEng(answer, value):
-  if answer in dictUzb[value]:
-    return True
+  if answer == dictUzb[value]:
+    return "Correct!!!"
   else:
-    return False
+    return "Wrong answer!"

@@ -1,6 +1,7 @@
-with open('./sources/baseUnits.txt') as readBase:
+with open('./sources/baseEssential2.txt') as readBase:
   ls = readBase.read().split()
-# lengthEngWords = len(ls)
+lengthEngWords = len(ls)
+# print(lengthEngWords)
 
 # Inglizcha so'zlarni key o'zbchasini value sifatida dict ga joylassh
 dictEng = {}
@@ -19,3 +20,4 @@ for i in uzbWords:
   for j in dictEng.keys():
     if i in dictEng[j]:
       dictUzb[i]=j
+# print(dictUzb)
