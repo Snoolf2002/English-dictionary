@@ -25,7 +25,7 @@ if request=='1':
       wrongAnswers+=1
     print(ans)
 else:
-  wrongAnswersList = lsEng
+  wrongAnswersList = lsUzb
   for i in range(len(lsUzb)):
     if len(lsUzb)==0:
       break
@@ -49,9 +49,10 @@ wrongAnswers = 0
 request2 = input("Xatolar bilan ishlashni hohlaysizmi? Ha(1)/Yo'q(2): ")
 while request2!='1' and request2!='2':
   request2 = input("Ha(1)/Yo'q(2): ")
-
 while len(wrongAnswersList)!=0:
-  if request2=='1' and request=="1":
+  if request2=="2":
+    break
+  elif request2=='1' and request=="1":
     for i in range(2*len(wrongAnswersList)):
       if len(wrongAnswersList)==0:
         break
@@ -79,5 +80,7 @@ while len(wrongAnswersList)!=0:
       else:
         wrongAnswers+=1
       print(ans)
+    else:
+      break
   print(f"You answered {correctAnswers} correct {wrongAnswers} incorrect answers.")
-print("Congratulation!!!")
+print("Finished...!!!")
